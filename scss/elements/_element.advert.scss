@@ -1,0 +1,25 @@
+.advert {
+    display: block; 
+    margin-bottom: 5em;
+    
+    img {
+        width: auto;
+        max-width: 100%;
+        display: block;
+    }
+    
+    &-social {
+        a {
+            color: white;
+            font-size: $sidbar-icon-size;
+            
+            &:hover {
+                text-decoration: none;
+            }
+            
+            span {
+                display: none;
+            }
+        }
+    }
+}

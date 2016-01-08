@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACJ,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,GAAG;EAElB,WAAI;IACA,KAAK,EAAE,IAAI;IACX,SAAS,EAAE,IAAI;IACf,OAAO,EAAE,KAAK;EAId,gBAAE;IACE,KAAK,EAAE,KAAK;IACZ,SAAS,ECTD,IAAqB;IDW7B,sBAAQ;MACJ,eAAe,EAAE,IAAI;IAGzB,qBAAK;MACD,OAAO,EAAE,IAAI;;AEpB7B,IAAK;EACD,gBAAgB,ECAN,OAAO;;ACAjB,YAAQ;EACJ,KAAK,EAAE,KAAK;;ACFpB,OAAQ;EACJ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,wBAAwB;EAC1C,eAAe,EAAE,OAAO;EACxB,iBAAiB,EAAE,QAAQ;EAC3B,mBAAmB,EAAE,WAAW;;ACLpC,QAAS;EACL,OAAO,EAAE,IAAI;EAEb,oCAA8C;IAHlD,QAAS;MAID,OAAO,EAAE,KAAK",
+"sources": ["../../scss/elements/_element.advert.scss","../../scss/settings/_settings.global.scss","../../scss/elements/_element.body.scss","../../scss/settings/_settings.colors.scss","../../scss/elements/_element.title.scss","../../scss/elements/_element.footer.scss","../../scss/generic/_generic.sidebar.scss"],
+"names": [],
+"file": "styles.css"
+}

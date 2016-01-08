@@ -1,0 +1,13 @@
+{
+  "name": "porkstock-sass",
+  "version": "1.0.0",
+  "description": "Porkstock intro page",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.4.0",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "author": "Alex Wyett",
+  "license": "MIT"
+}
