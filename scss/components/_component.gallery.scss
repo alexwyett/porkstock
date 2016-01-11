@@ -29,7 +29,8 @@
         padding: $base-margin;
         background: #ffebec;
         
-        img {
+        img,
+        iframe {
             width: 100%;
             display: block;
         }
@@ -47,7 +48,9 @@
         }
         
         img + .c-gallery_item_caption,
-        .c-gallery_item_caption + img {
+        .c-gallery_item_caption + img,
+        iframe + .c-gallery_item_caption,
+        .c-gallery_item_caption + iframe {
             padding-top: $base-margin;
         }
         
@@ -57,8 +60,8 @@
         
         &-image {
             @media screen and (min-width: $screen-md-min) {
-                margin:  0 0 -100px 0;
-                width: 65%;
+                margin:  0 0 -140px 0;
+                width: 59%;
                 float: right;
                 position: relative;
                 transform: rotate(5deg);
