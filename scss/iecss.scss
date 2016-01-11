@@ -1,0 +1,21 @@
+
+@import "settings/settings.global";
+@import "settings/settings.colors"; 
+
+html.ie {
+    .c-gallery_intro {
+        width: auto;
+        position: static;
+    }
+    
+    .c-gallery_item {
+        transform: none !important;
+        float: none !important;
+        margin: ($base-margin * 2) 0 !important;
+        width: 100% !important;
+        
+        &:before {
+            display: none !important;
+        }
+    }
+}

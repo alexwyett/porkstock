@@ -1,3 +1,21 @@
 body {
     background-color: $color-brand;
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    padding-top: 2em;
+}
+
+.register {
+    font-size: 24px;
+    
+    @media screen and (min-width: $screen-md-min) {
+        margin-top: ($base-margin * 2);
+    }
+    
+    a {
+        color: black;
+        text-decoration: underline;
+    }
 }

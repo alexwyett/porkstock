@@ -1,0 +1,10 @@
+.c-titledivider {
+    border: 1px solid white;
+    border-width: 1px 0;
+    margin: ($base-margin * 2) 0;
+    
+    .e-title {
+        margin-top: $base-margin;
+        margin-bottom: $base-margin;
+    }
+}

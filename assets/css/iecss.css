@@ -1,0 +1,12 @@
+html.ie .c-gallery_intro {
+  width: auto;
+  position: static; }
+html.ie .c-gallery_item {
+  transform: none !important;
+  float: none !important;
+  margin: 32px 0 !important;
+  width: 100% !important; }
+  html.ie .c-gallery_item:before {
+    display: none !important; }
+
+/*# sourceMappingURL=iecss.css.map */

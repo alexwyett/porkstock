@@ -1,11 +1,22 @@
-.advert {
-    display: block; 
+.e-advert {
     margin-bottom: 5em;
+    display: block;
     
     img {
         width: auto;
         max-width: 100%;
         display: block;
+    }
+    
+    
+    @media screen and (max-width: $screen-sm-min - 1) {
+        &-edp,
+        &-social {
+            display: none;
+        }
+        &-logo img {
+            margin: 0 auto;
+        }
     }
     
     &-social {

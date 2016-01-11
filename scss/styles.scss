@@ -1,8 +1,12 @@
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab');
+
 @import "settings/settings.global";
 @import "settings/settings.colors"; 
 @import "elements/element.advert"; 
 @import "elements/element.body"; 
 @import "elements/element.title"; 
 @import "elements/element.footer"; 
+@import "components/component.titledivider"; 
+@import "components/component.gallery";
 @import "generic/generic.sidebar"; 
 @import "tools/tools.mixins";
